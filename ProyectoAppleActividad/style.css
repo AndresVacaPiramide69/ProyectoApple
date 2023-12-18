@@ -79,3 +79,33 @@ header img{
         font-size: 17px;
     }
 }
+
+/* SEGUNDA PAGINA */
+
+.segundapagina-fila-1, .segundapagina-fila-2, .botones-miniconts{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.mini-contenedores-segunda-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .botones-miniconts{
+    gap: 15px;
+    text-decoration: none;
+} */
+
+.segunda-pagina {
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-contenedores-segunda-pagina{
+    background-color: red;
+}
