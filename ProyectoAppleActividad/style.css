@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
 a{
@@ -53,9 +53,85 @@ header img{
     font-size: 24px;
 }
 
+/* SEGUNDA PAGINA */
+
+.supercontenedor-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F7;
+}
+
+.supercontenedor-2-fila-1, .supercontenedor-2-fila-2{
+    display: flex;
+    justify-content: center;
+}
+
+.columna-1-minicont-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.texto-minicont-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.titulos-homepod{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.boton-compra{
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #0077ED;
+    color: white;
+}
+
+.boton-info{
+    color: #0077ED;
+    border: none;
+    background-color: transparent;
+}
+
+.minicont-1-picture{
+    margin-top: 35px;
+}
+
+.img-miniconts{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+}
+
+/* segunda columna */
+
+.texto-minicont-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: black;
+}
+
 @media all and (min-width:1025px) and (max-width: 1200px) /*Escritorio*/{
     .contenido h1{
         font-size: 64px;
+    }
+
+    h3{
+        font-size: 28px;
     }
     .contenido p{
         font-size: 24px;
@@ -65,6 +141,10 @@ header img{
 @media all and (min-width:769px) and (max-width: 1024px) /*Portátil*/{
     .contenido h1{
         font-size: 48px;
+    }
+
+    h3{
+        font-size: 24px;
     }
     .contenido p{
         font-size: 21px;
@@ -78,34 +158,8 @@ header img{
     .contenido p{
         font-size: 17px;
     }
-}
 
-/* SEGUNDA PAGINA */
-
-.segundapagina-fila-1, .segundapagina-fila-2, .botones-miniconts{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: center;
-}
-
-.mini-contenedores-segunda-pagina{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* .botones-miniconts{
-    gap: 15px;
-    text-decoration: none;
-} */
-
-.segunda-pagina {
-    background-color: #F5F5F7;
-    display: flex;
-    flex-direction: column;
-}
-
-.mini-contenedores-segunda-pagina{
-    background-color: red;
+    h3{
+        font-size: 19px;
+    }
 }
